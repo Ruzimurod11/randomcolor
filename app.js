@@ -103,7 +103,7 @@ setRandomColors(true)
 const refresh = document.querySelector('.refresh');
 
 refresh.addEventListener('click', () => {
-	setRandomColors()
+	setRandomColors(false)
 });
 
 
